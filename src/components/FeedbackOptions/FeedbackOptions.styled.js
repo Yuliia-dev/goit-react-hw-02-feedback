@@ -11,7 +11,7 @@ export const FeedbackOptionsBtn = styled.button`
   background: linear-gradient(to bottom right, #91572a, #ff9a5a);
   border: 0;
   border-radius: 12px;
-  color: white;
+  color: ${props => props.theme.colors.white};
   padding: 0 15px;
   cursor: pointer;
   font-size: 16px;

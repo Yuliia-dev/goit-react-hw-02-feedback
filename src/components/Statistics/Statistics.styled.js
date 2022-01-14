@@ -17,5 +17,5 @@ export const StatisticsItem = styled.li`
   font-size: 24px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: white;
+  color: ${props => props.theme.colors.white};
 `;

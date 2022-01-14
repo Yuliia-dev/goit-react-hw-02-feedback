@@ -20,5 +20,5 @@ export const SectionTitle = styled.h2`
   font-size: 36px;
   line-height: 1.62;
   letter-spacing: 0.06em;
-  color: #ffe599;
+  color: ${props => props.theme.colors.lightYellow};
 `;
