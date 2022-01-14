@@ -8,6 +8,7 @@ import {
 class FeedbackOptions extends Component {
   static propTypes = {
     options: PropTypes.arrayOf(PropTypes.string.isRequired),
+    onLeaveFeedback: PropTypes.func.isRequired,
   };
 
   render() {
